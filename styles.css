@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,8 +7,9 @@
 }
 
 body {
-  font-size: 15px;
-  max-width: 1440px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  /* max-width: 1440px; */
   width: 100%;
   background-color: hsl(0, 0%, 98%);
   padding: 2rem;
@@ -25,6 +28,7 @@ body {
 }
 
 .second--header {
+  display: block;
   color: hsl(234, 12%, 34%);
   font-weight: 600;
   margin: 0.2rem auto 1.2rem;
@@ -67,15 +71,16 @@ body {
 }
 
 .container p {
-  max-width: 90%;
+  max-width: 100%;
   color: hsl(229, 6%, 66%);
+  font-size: 0.9rem;
   font-weight: 200;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .container-logo {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 2rem;
 }
 
